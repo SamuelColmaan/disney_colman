@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone</title>
+    <link rel="stylesheet" href="dist/css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <h1>
+                <img class="header__logo" src="./dist/images/disneyplus.svg" alt="Disney+">
+            </h1>
+            <ul class="header__links">
+                <li class="header__links__item">
+                    <a class="button button--secondary" href="#">Sign now</a>
+                </li>
+                <li class="header__links__item" >
+                    <a class="button button--dark" href="#">Sign in</a>
+                </li>
+                
+                
+            </ul>
+        </div>
+
+    </header>
+    <section class="hero">
+        <div class="hero__content">
+            <div class="hero__content__branding">
+                <img src="./dist/images/disneyplus.svg" alt="Disney+">
+            </div>
+            <h3 class="title--small">
+                As melhores histórias em um só lugar
+            </h3>
+            <p>
+                <a href="#" class="link-text">assinar o Disney Plus+</a>
+                <br>
+                <span class="text" >
+                    R$ 27,90/mês ou 279,90/ano à vista
+                </span>
+            </p>
+            <ul class="hero__content__combos">
+                <li class="hero__content__combos__combo">
+                    <img src="./dist/images/logos/disney_star_plus.png" alt="Disney + - Star+ - Combo+">
+                    <button class="button" >Assine Agora</button>
+                    <span>R$45,90/mês*</span>
+                </li>
+                <li class="hero__content__combos__combo">
+                    <img src="./dist/images/logos/disney_star_plus.png" alt="Disney + - Star+ - Combo+">
+                    <button class="button" >Assine Agora</button>
+                    <span>R$45,90/mês*</span>
+                </li>
+            </ul>
+            <p class="text--small">
+                *The price may vary if the subscription is made through other platforms.
+            </p>
+        </div>
+    </section>
+
+    <section class="shows">
+
+        <nav class="shows__tabs">
+            <button data-tab-button="soon" class="shows__tabs__button shows__tabs__button--is-active">
+                Soon
+            </button>
+            <button data-tab-button="popular" class="shows__tabs__button">
+                Most popular
+            </button>
+            <button data-tab-button="star_plus" class="shows__tabs__button">
+                Most popular in star plus
+            </button>
+        </nav>
+
+        <ul data-tab-id="soon" class="shows__list shows__list--is-active"> 
+            <li class="shows__list__item">
+                <img src="./dist/images/em_breve/desencantada.jpg" alt="desencantada">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/em_breve/willow.jpg" alt="willow">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/em_breve/lobisomem.jpg" alt="lobisomem">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/em_breve/spidey.jpg" alt="spidey">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/em_breve/the_santa_clauses.jpg" alt="the_santa_clauses">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/em_breve/sem_limites.jpg" alt="sem_limites">
+            </li>
+        </ul>
+        <ul data-tab-id="popular" class="shows__list"> 
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_populares/obi_wan.jpg" alt="obi_wan">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_populares/bluey.jpg" alt="bluey">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_populares/cavaleira_da_lua.jpg" alt="cavaleira_da_lua">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_populares/o_incrivel_dr_pol.jpg" alt="o_incrivel_dr_pol">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_populares/red.jpg" alt="red">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_populares/tudo_igual_sqn.jpg" alt="tudo_igual_sqn">
+            </li>
+        </ul>
+        <ul data-tab-id="star_plus" class="shows__list "> 
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_no_star_plus/libertadores.jpg" alt="libertadores">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_no_star_plus/belair.jpg" alt="belair">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_no_star_plus/nba.jpg" alt="nba">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_no_star_plus/os_simpson.jpg" alt="os_simpson">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_no_star_plus/premier_league.jpg" alt="premier_league">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_no_star_plus/the_kardashians.jpg" alt="the_kardashians">
+            </li>
+        </ul>
+
+    </section>
+
+    <section class="plans">
+        <h2 class="title--big">Choose your plans</h2>
+        <ul class="plans__list">
+            <li class="plans__list__item" >
+                <img src="./dist/images/logos/disneyplus_underline.png" alt="Disney+">
+                <strong class="title--small">R$ 27,90/mês*</strong>
+                <p class="--big">
+                    On Disney+, you will find the latest movie releases, originals, classics, and unforgettable stories
+                </p>
+                <button class="button" >Subscribe now</button>
+            </li>
+
+            <li class="plans__list__item" >
+                <img src="./dist/images/logos/disney_star_plus_sm.png" alt="Disney+">
+                <strong class="title--small">R$ 27,90/mês*</strong>
+                <p class="text--big">
+                    Subscribe to Disney+ and Star+ together. Save money and enjoy both services for a single price
+                </p>
+                <button class="button">Subscribe now</button>
+            </li>
+
+            <li class="plans__list__item" >
+                <img src="./dist/images/logos/disney_star_plus_starzplay_underline.png" alt="Disney+">
+                <strong class="title--small">R$ 27,90/mês*</strong>
+                <p class="text--big">
+                    Disney+, Star+, and StarzPlay in a special plan. Subscribe now to get all three services together
+                </p>
+                <button class="button" >Subscribe now</button>
+            </li>
+        </ul>
+
+        <p class="text--small">
+            *The price may vary if the subscription is made through other plataforms
+        </p>
+
+    </section>
+
+    <section class="image-text-section">
+        <img src="dist/images/tv_pc_tablet_celular.png" alt="Immage whith tv_pc_tablet_celular">
+        <div class="image-text-section__text_container">
+            <h2 class="title">Watch your way</h2>
+            <p class="text--big">Enjoy the big screen on your TV or watch on your tablet, laptop, cellphone, and other devices. Our 4K title selection is constantly growing. Plus, to everyone's delight, you can watch on up to 4 screens at the same time.</p>
+        </div>
+    </section>
+
+    <section class="image-text-section image-text-section--image-full-width">
+        <picture>
+            <source media = "(max-width: 768px)" srcset="./dist/images/fundo_rei_leao_celular.png" />
+            <img src="dist/images/fundo_rei_leao.png" alt="Immage whith tv_pc_tablet_celular">
+        </picture>
+        <div class="image-text-section__text_container image-text-section--image-full-width__text_container">
+            <h2 class="title">Download movies and series</h2>
+            <p class="text--big">Download and watch whenever and wherever you want. That way, your favorites are always with you, even without internet</p>
+        </div>
+    </section>
+
+    <section class="available-devices">
+            <h2 class="title">Available on your favorite devices</h2>
+            <ul class="available-devices__list">
+                <li class="available-devices__list__item">
+                    <img src="dist/images/dispositivos/computador.png" alt="computador">
+                    <h4 class="title--small">Computer</h4>
+                    <ul class="text">
+                        <li>Chrome OS</li>
+                        <li>MacOS</li>
+                        <li>PC Windows</li>
+                    </ul>
+                </li>
+
+                <li class="available-devices__list__item">
+                    <img src="dist/images/dispositivos/tv.png" alt="tv">
+                    <h4 class="title--small">tv</h4>
+                    <ul class="text">
+                        <li>Amazon Fire Tv</li>
+                        <li>Android TV</li>
+                        <li>Apple TV</li>
+                        <li>Chromecast</li>
+                        <li>Tv's LG/li>
+                        <li>Roku</li>
+                        <li>Samsung</li>
+                    </ul>
+                </li>
+
+                <li class="available-devices__list__item">
+                    <img src="dist/images/dispositivos/videogames.png" alt="videogames">
+                    <h4 class="title--small">videogames</h4>
+                    <ul class="text">
+                        <li>PS4</li>
+                        <li>PS5</li>
+                        <li>xBOX One</li>
+                        <li>Xbox Seies X</li>
+                        <li>Xbox Seies S</li>
+                    </ul>
+                </li>
+
+                <li class="available-devices__list__item">
+                    <img src="dist/images/dispositivos/celular.png" alt="cellphone and tablets">
+                    <h4 class="title--small">cellphone and tablets</h4>
+                    <ul class="text">
+                        <li>Tablets Amazon Fire</li>
+                        <li>Cellphone and Android Tablets</li>
+                        <li>Iphone and Ipad</li>
+                    </ul>
+                </li>
+            </ul>
+    </section>
+
+    <section class="faq">
+        <h2 class="title">Frequently Asked Questions</h2>
+    
+        <ul class="faq__questions">
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    What is included on Disney+?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    <p>• Disney+ offers:</p><br>
+                    <p>• Premium experiences without commercial breaks.</p><br>
+                    <p>• The best Disney+, Pixar, Marvel, Star Wars, and National Geographic stories, all in one place.</p>
+                </div>
+            </li>
+    
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Do you already have Disney+ and Star+ and want the combo?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    The answer to the question
+                </div>
+            </li>
+    
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    What payment methods can I use?<br>
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    <p>• Pix</p><br>
+                    <p>• Credic Card</p>
+                </div>
+            </li>
+        </ul>
+
+    </section>
+    
+
+    <footer class="footer">
+        <div class="footer__container">
+            <img class="footer__logo" src="./dist/images/disneyplus.svg" alt="disneyplus">
+            <ul class="footer__links">
+
+                <!-- IMPORTANT section -->
+                <!-- It creates a selector in the web page -->
+                <li class="footer__links__item">
+                    <div class="language-selector">
+                        <img src="./dist/images/icones/globe.svg" alt="Globo">
+                        <select>
+                            <option>English</option>
+                            <option>Portuguese</option>
+                        </select>
+                    </div>
+                </li>
+                
+                <li class="footer__links__item" >
+                    <a href="#" class="text--small">Terms and conditions of use</a>
+                </li>
+                <li class="footer__links__item" >
+                    <a href="" class="text--small">Privacy Policy</a>
+                </li>
+                <li class="footer__links__item" >
+                    <a href="#" class="text--small">Data protection in Brazil</a>
+                </li>
+                <li class="footer__links__item" >
+                    <a href="#" class="text--small">Personalized ads</a>
+                </li>
+                
+                <li class="footer__links__item" >
+                    <a href="" class="text--small" >Compatible devices</a>
+                </li>
+
+                <li class="footer__links__item" >
+                    <a href="#" class="text--small">Help</a>
+                </li>
+
+                <li class="footer__links__item" >
+                    <a href="" class="text--small" >About the Disney+</a>
+                </li>
+
+            </ul>
+            <p class="text--small">* 2025 Disney, Disney+ and the alt Disney Company. All rights reserved. Paid subscripion service. Content subjected to availability</p>
+            <p class="text--small">Paid subscripion service. AV Das Nações Unidas 12.551. Piso 10, SP</p>
+        </div>
+    </footer>
+
+    <script src="./dist/js/main.js"></script>
+    
+</body>
+</html>
