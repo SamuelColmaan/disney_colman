@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clone</title>
     <link rel="stylesheet" href="dist/css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header class="header">
@@ -172,15 +173,15 @@
 
     </section>
 
-    <section class="image-text-section">
+    <section class="image-text-section" data-aos="fade-right">
         <img src="dist/images/tv_pc_tablet_celular.png" alt="Immage whith tv_pc_tablet_celular">
-        <div class="image-text-section__text_container">
+        <div class="image-text-section__text_container" >
             <h2 class="title">Watch your way</h2>
             <p class="text--big">Enjoy the big screen on your TV or watch on your tablet, laptop, cellphone, and other devices. Our 4K title selection is constantly growing. Plus, to everyone's delight, you can watch on up to 4 screens at the same time.</p>
         </div>
     </section>
 
-    <section class="image-text-section image-text-section--image-full-width">
+    <section class="image-text-section image-text-section--image-full-width" >
         <picture>
             <source media = "(max-width: 768px)" srcset="./dist/images/fundo_rei_leao_celular.png" />
             <img src="dist/images/fundo_rei_leao.png" alt="Immage whith tv_pc_tablet_celular">
@@ -191,7 +192,7 @@
         </div>
     </section>
 
-    <section class="available-devices">
+    <section class="available-devices" data-aos="zoom-in">
             <h2 class="title">Available on your favorite devices</h2>
             <ul class="available-devices__list">
                 <li class="available-devices__list__item">
@@ -262,7 +263,10 @@
                     Do you already have Disney+ and Star+ and want the combo?
                 </div>
                 <div class="faq__questions__item__answer text--big">
-                    The answer to the question
+                    <p>• The answer to the question</p>
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    <p>• The answer to the question</p>
                 </div>
             </li>
     
@@ -329,6 +333,7 @@
         </div>
     </footer>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./dist/js/main.js"></script>
     
 </body>
